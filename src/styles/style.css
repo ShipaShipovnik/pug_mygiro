@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.wrapper {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+header {
+  height: 62px;
+  background-color: antiquewhite;
+}
+header .logo {
+  margin-top: 12px;
+  float: left;
+}
+header .logo h1 {
+  font-size: 30PX;
+  font-weight: 500;
+}
+header .main-menu {
+  float: right;
+  margin-top: 23px;
+}
+header .main-menu ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  float: left;
+  margin-left: 33px;
+}
+header .main-menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 815px;
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+}
+.banner h1 {
+  font-size: 56pt;
+  font-weight: 300;
+  margin-bottom: 39px;
+}
+.banner p {
+  margin-bottom: 64px;
+}
+.banner input[type=button] {
+  width: 133px;
+  height: 35px;
+  border: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.about {
+  margin-top: 60px;
+}
+.about h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.about p {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
