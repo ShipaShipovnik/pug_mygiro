@@ -19,7 +19,6 @@
 
 header {
     height: 62px;
-    background-color: antiquewhite;
 
     .logo {
         margin-top: 12px;
@@ -41,10 +40,12 @@ header {
                 text-transform: uppercase;
                 float: left;
                 margin-left: 33px;
+                cursor: pointer;
 
                 a {
                     text-decoration: none;
                     color: black;
+                    cursor: pointer;
                 }
             }
         }
@@ -96,5 +97,282 @@ header {
 
     p {
         font-size: 20px;
+    }
+}
+
+.catalog {
+    background-color: #e6efce;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+
+    .catalog-head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px;
+        padding-top: 50px;
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 50px;
+            float: left;
+        }
+
+        .catalog-menu {
+            nav {
+                font-size: 16px;
+                float: right;
+
+                p {
+                    display: inline-block;
+                    margin-left: 39px;
+                    padding: 5px 7px;
+                    border-radius: 510px;
+                }
+            }
+
+            .active {
+                background-color: #FF9900;
+            }
+        }
+    }
+
+    .elements {
+        // margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 261px);
+        column-gap: 10px;
+        -webkit-box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+
+        .tovar {
+            background-color: white;
+            width: 261px;
+            height: 380px;
+            padding: 25px 11px;
+
+            img {
+                width: 239px;
+                height: 239px;
+                margin-bottom: 13px;
+            }
+
+            h3 {
+                font-size: 16px;
+                margin-bottom: 13px;
+
+            }
+
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.info {
+    .hint-elements {
+        display: grid;
+        grid-template-columns: repeat(4, 261px);
+        column-gap: 10px;
+        margin-bottom: 50px;
+
+        .hint {
+            width: 261px;
+            height: 261px;
+            padding-top: 100px;
+            text-align: center;
+            background-image: url(/src/images/1\ 921.png);
+
+            h4 {
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+// footer
+footer {
+    background-color: #e6efce;
+
+    .footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-rows: 200px;
+        column-gap: 42px;
+        padding-top: 80px;
+
+        nav {
+            h3 {
+                font-weight: 700;
+            }
+
+            p {
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+// 
+// ABOUT О НАС
+// 
+.banner-about {
+    background-color: #e6efce;
+    text-align: center;
+    height: 178px;
+    padding-top: 70px;
+
+    h1 {
+        font-weight: 600;
+        font-size: 36px;
+    }
+}
+
+.about-info {
+    margin: 50px 0;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    input {
+        width: 165px;
+        height: 60.957px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #F90;
+        border: none;
+        margin: 53px 40% auto 40%;
+        cursor: pointer;
+    }
+}
+
+// 
+// 
+// 
+.catalog-solo {
+    background-color: none;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+
+    .catalog-head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px;
+        padding-top: 50px;
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 50px;
+            float: left;
+        }
+
+        .catalog-menu {
+            nav {
+                font-size: 16px;
+                float: right;
+
+                p {
+                    display: inline-block;
+                    margin-left: 39px;
+                    padding: 5px 7px;
+                    border-radius: 510px;
+                }
+            }
+
+            .active {
+                background-color: #FF9900;
+            }
+        }
+    }
+
+    .elements {
+        // margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 261px);
+        column-gap: 10px;
+        row-gap: 20px;
+
+        .tovar {
+            background-color: white;
+            width: 261px;
+            height: 380px;
+            padding: 25px 11px;
+            -webkit-box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+            -moz-box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+
+            img {
+                width: 239px;
+                height: 239px;
+                margin-bottom: 13px;
+            }
+
+            h3 {
+                font-size: 16px;
+                margin-bottom: 13px;
+
+            }
+
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+
+}
+
+// 
+// 
+// 
+
+.info-solo {
+    margin-top: 66px;
+    .hint-elements {
+        display: grid;
+        grid-template-columns: repeat(2, 552px);
+        column-gap: 10px;
+        margin-bottom: 50px;
+
+        .hint {
+            -webkit-box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+            -moz-box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 0px 17px 4px rgba(34, 60, 80, 0.2);
+            width: 552px;
+            height: 200px;
+            display: flex;
+            padding: 10px 15px;
+            border-radius: 20px;
+            img {
+                width: 179px;
+                height: 180px;
+                background-color: #FF9900;
+            }
+
+            h4 {
+                color: #000000;
+                margin-top: 80px;
+                margin-left: 50px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
     }
 }
